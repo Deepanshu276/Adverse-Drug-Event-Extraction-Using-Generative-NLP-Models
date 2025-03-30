@@ -14,7 +14,7 @@ from langchain_core.exceptions import OutputParserException # type: ignore
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
-UMLS_API_KEY = "14962e79-18cd-4308-bada-5b0791d6f6b4"
+UMLS_API_KEY = " "
 UMLS_AUTH_URL = "https://utslogin.nlm.nih.gov/cas/v1/api-key"
 UMLS_BASE_URL = "https://uts-ws.nlm.nih.gov/rest"
 
